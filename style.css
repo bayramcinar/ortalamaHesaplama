@@ -1,0 +1,158 @@
+*{
+    font-family: 'Signika Negative', sans-serif;
+}
+body{
+    background-color: #fff !important;
+}
+.inputes{
+    padding-bottom: 10px !important;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.box{
+    width: 310px;
+    height: auto;
+    background-color: #f5f8f9;
+    border-radius: 10px;
+}
+.titleText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0b37e8;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+#subjectName{
+    width: 210px;
+    margin-left: 25px !important;
+    margin-right: auto;
+    border-radius: 15px;
+}
+.enteredSubjects{
+    font-size: 11px;
+    margin: auto;
+    color: #0b37e8;
+}
+.ortalama{
+    font-size: 28px;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    color: #0b37e8;
+    margin-left: 6px;
+}
+.ort{
+    color: #0b37e8;
+    font-size: 17px;
+}
+#harf,
+#kredi{
+    width: 70px;
+}
+#harf{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#kredi{
+    margin-top: 10px;
+}
+.col-2{
+    padding: 0 !important;
+}
+.addLecture{
+    margin-top: 10px;
+}
+i{
+    color: #0b37e8;
+    font-size: 25px !important;
+}
+.col-5{
+    padding-right: 0px !important;
+}
+.col-9{
+    padding-right: 0px !important;
+}
+.carpım{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 17px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.lectureName{
+    font-size: 15px;
+    padding: 0 !important;
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+}
+.lectureKredi,
+.lectureNot{
+    font-size: 11px;
+}
+
+.lecture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 295px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 8px !important;
+    margin-left: 8px !important;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.lectures{
+    padding-bottom: 8px !important;
+}
+.features{
+    margin-top: 5px !important;
+}
+#mevcutKredi,
+#mevcutOrtalama{
+    width: 100px;
+    display: inline-block;
+}
+#mevcutKredi{
+    margin-left: 10px;
+}
+#mevcutOrtalama{
+    margin-left: 5px;
+}
+.continue{
+    background-color: #0b37e8 !important;
+    width: 60px !important;
+    color: #fff !important;
+    margin-top: 10px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+input,
+select,
+option{
+    background-color: #e4ebf2 !important;
+    border: none !important;
+}
+input::placeholder{
+    font-size: 14px;
+}
+.fa-circle-xmark{
+    font-size: 25px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

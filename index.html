@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box">
+            <div class="title animate__animated animate__backInDown">
+                <h1 class="titleText">Ortalama Hesaplama</h1>
+            </div>
+            <div class="inputes">
+                <div class="row">
+                    <div class="col-9 hesaplamaYeri animate__animated animate__backInUp" style="display: none;">
+                        <div class="row">
+                            <input type="text" class="form-control" name="" id="subjectName" placeholder="Ders İsmi...">
+                        </div>
+                        <div class="row">
+                            <div class="col-5">
+                                <select class="form-select" id="harf" aria-label="Default select example">
+                                    <option selected value="AA" class="solSelected">AA</option>
+                                    <option value="BA">BA</option>
+                                    <option value="BB">BB</option>
+                                    <option value="CB">CB</option>
+                                    <option value="CC">CC</option>
+                                    <option value="DC">DC</option>
+                                    <option value="DD">DD</option>
+                                    <option value="FF">FF</option>
+                                  </select>
+                            </div>
+                            <div class="col-4">
+                                <select class="form-select" id="kredi" aria-label="Default select example">
+                                    <option selected value="1" class="solSelected">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                  </select>
+                            </div>
+                            <div class="col-2">
+                                <div class="btn addLecture"><i class="fa-solid fa-arrow-right"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-9 eklemeYeri">
+                        <input type="text" name="" id="mevcutKredi" class="form-control animate__animated animate__backInLeft" placeholder="Kredi...">
+                        <input type="text" name="" id="mevcutOrtalama" class="form-control animate__animated animate__backInRight" placeholder="Ortalama...">
+                        <div class="row">
+                            <div class="btn continue animate__animated animate__backInUp">Ekle</div>
+                        </div>
+                    </div>
+                    <div class="col-3 features animate__animated animate__backInRight" style="padding: 0;" >
+                        <div class="row">
+                            <h4 class="enteredSubjects">0 Ders Girildi</h4>
+                        </div>
+                        <div class="row">
+                            <h3 class="ortalama">0.00</h3>
+                        </div>
+                        <div class="row">
+                            <h5 class="ort">Ortalama</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lectures">
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
